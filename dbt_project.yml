@@ -37,10 +37,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   academy2411:
+
     intermediate:
+
     marts:
       +materialized: table
       +schema: marts
+      
     staging:
       +schema: stg
       erp:
