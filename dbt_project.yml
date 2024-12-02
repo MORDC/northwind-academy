@@ -39,11 +39,12 @@ models:
   academy2411:
 
     intermediate:
+      +schema: int
 
     marts:
       +materialized: table
       +schema: marts
-      
+
     staging:
       +schema: stg
       erp:
